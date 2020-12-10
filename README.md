@@ -8,4 +8,11 @@ int[][] MB = new int[10][10];
                 MB[j][i]++;
             }
         }
-```        
+```    
+Next changes were implemented:
+
+> adding row variable to pool of variables
+
+Result:
+
+
