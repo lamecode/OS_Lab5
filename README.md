@@ -24,7 +24,7 @@ int[][] MB1 = new int[10][10];
            }
        }
 ``` 
-![execution_time](пееквркерк.PNG "optimez time")
+![execution_time](пееквркерк.PNG "optimized time")
 
 Execution time was reduced due to **lowering number of times variable 'i' was called**.
 
