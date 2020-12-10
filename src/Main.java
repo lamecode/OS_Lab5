@@ -10,7 +10,8 @@ public class Main {
             }
         }
         long end = System.nanoTime();
-        System.out.println("Program execution time - " + (double) (end - start) / Math.pow(10, 9));
+        System.out.println("Program execution time - " + (double) (end - start) / Math.pow(10, 9) +
+                " (before optimization)");
         //after optimization
         long start1 = System.nanoTime();
         int[][] MB1 = new int[10][10];
@@ -22,6 +23,7 @@ public class Main {
             }
         }
         long end1 = System.nanoTime();
-        System.out.println("Program execution time - " + (double) (end1 - start1) / Math.pow(10, 9));
+        System.out.println("Program execution time - " + (double) (end1 - start1) / Math.pow(10, 9) +
+                "(after optimization)");
     }
 }
